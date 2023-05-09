@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4f0b8f8c8279142949f77fda3f4d18, type: 3}
+  m_Name: item1
+  m_EditorClassIdentifier: 
+  itemName: et
+  itemType: 0
+  Pirce: 10
+  Splash: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  ItemMesh: {fileID: 4300000, guid: c27394c5082fff84783e4e8a0c394b1d, type: 3}
+  ItemMaterial: {fileID: 2100000, guid: 9b6f00edc7822ab47b645603f7b615b6, type: 2}
+  isBuying: 1
+  isUse: 0
