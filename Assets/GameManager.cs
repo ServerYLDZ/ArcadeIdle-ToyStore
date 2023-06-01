@@ -116,7 +116,7 @@ IEnumerator ResetInterAdd(){
        SetMoneyText();
        StartCoroutine(DecreseSalary());
 
-        workerSalaryCount =workerCount() *50;
+        workerSalaryCount =workerCount()+1 *50;
         AdsControl();
          StartCoroutine(ResetInterAdd());
     }
@@ -124,7 +124,7 @@ IEnumerator ResetInterAdd(){
   
     yield return new  WaitForSeconds(300);// 5 dk ara ile maas kesintisi
     
-    workerSalaryCount=workerCount()*50;
+    workerSalaryCount=workerCount()+1*50;
     if(Money<workerSalaryCount+borc){
       Debug.Log("para yetersiz mutluluk düsücek");
             vali -= 10;

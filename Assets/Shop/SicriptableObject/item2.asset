@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Iron
   itemType: 0
   Pirce: 20
-  Splash: {fileID: 21300000, guid: 7e082cc2cf2a4433d85e388c6bf94234, type: 3}
+  Splash: {fileID: 21300000, guid: 1cfa2f4fffaffea4b9cf443705ad6f18, type: 3}
   ItemMesh: {fileID: 4300000, guid: 2ba2984024c70b6469cda3572e09aab5, type: 3}
   ItemMaterial: {fileID: 2100000, guid: 84f03d68c57127346aa3ebb3bb5c8009, type: 2}
   isBuying: 1

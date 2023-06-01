@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: gem
   itemType: 1
   Pirce: 30
-  Splash: {fileID: 21300000, guid: f59401c5c79564fd1ae3bfb0876455a7, type: 3}
+  Splash: {fileID: 21300000, guid: 9491bd2954188e94e819ecc8ccf70bba, type: 3}
   ItemMesh: {fileID: 4300000, guid: dd0eddeb229771a4a9f0ceb2eaac5421, type: 2}
   ItemMaterial: {fileID: 2100000, guid: e74f0dce22cad484b8684c134647c030, type: 2}
   isBuying: 0
