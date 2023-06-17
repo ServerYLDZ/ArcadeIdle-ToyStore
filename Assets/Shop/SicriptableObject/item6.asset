@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: tahta
   itemType: 3
-  Pirce: 200
+  Pirce: 500
   Splash: {fileID: 21300000, guid: d8eb42a23c254604aad79efead217744, type: 3}
   ItemMesh: {fileID: -6223104033503649021, guid: 442bb5b0208f7c24cad4b2cd719c315f, type: 3}
   ItemMaterial: {fileID: 0}

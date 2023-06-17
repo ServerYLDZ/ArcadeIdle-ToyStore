@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: et
   itemType: 0
-  Pirce: 10
+  Pirce: 100
   Splash: {fileID: 21300000, guid: 20cfe0d0ba61d0d42ac57568c9a7a48a, type: 3}
   ItemMesh: {fileID: 4300000, guid: c27394c5082fff84783e4e8a0c394b1d, type: 3}
   ItemMaterial: {fileID: 2100000, guid: 9b6f00edc7822ab47b645603f7b615b6, type: 2}
-  isBuying: 1
+  isBuying: 0
   isUse: 0

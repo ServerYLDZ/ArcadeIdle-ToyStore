@@ -54,8 +54,8 @@ private void Awake() {
                     float dis= Vector3.Distance(this.transform.position,GameManager.Instance.deskTransforms[rand].transform.position);
                    
                      navMeshAgent.SetDestination(GameManager.Instance.deskTransforms[rand].transform.position);
-                    transform.DOMove(GameManager.Instance.deskTransforms[rand].transform.position,(float)dis*3/GameManager.Instance.currentWorkerSpeed);
-                    
+                    transform.DOMove(GameManager.Instance.deskTransforms[rand].transform.position,(float)dis*3/GameManager.Instance.currentWorkerSpeed);       
+                    transform.LookAt(GameManager.Instance.deskTransforms[rand].transform.position);
                     
                    
                   
@@ -79,7 +79,7 @@ private void Awake() {
                     float dis=Vector3.Distance(this.transform.position,GameManager.Instance.stackTransforms[rand].transform.position);
                     navMeshAgent.SetDestination(GameManager.Instance.stackTransforms[rand].transform.position);
                     transform.DOMove(GameManager.Instance.stackTransforms[rand].transform.position,(float)dis*3/GameManager.Instance.currentWorkerSpeed);
-                 
+                  transform.LookAt(GameManager.Instance.stackTransforms[rand].transform.position);
                      
                   
                     anim.SetBool("Walk", true);

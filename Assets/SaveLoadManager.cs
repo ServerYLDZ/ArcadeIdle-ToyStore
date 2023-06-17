@@ -10,7 +10,8 @@ public class SaveLoadManager : MonoSingleton<SaveLoadManager>
 {
     // Start is called before the first frame update
   public string SUB_WORKER="/worker";
-  public string SUB_ASSET="/AllAsset";
+
+
   public static List<Worker> workers=new List<Worker>();
 
   public GameObject workerPrefab;
@@ -23,9 +24,11 @@ private void Awake() {
       SceneManager.sceneLoaded+=LoadWorker;
 
 }
+
 private void OnApplicationQuit() {
     //save işlemlerinin hepsi burda yapılcak geliştirme sürecine engel oluyor şu an
   SaveWorker();
+
 }
 
     // Update is called once per frame
@@ -95,13 +98,18 @@ private void OnApplicationQuit() {
         string path= Application.persistentDataPath +SUB_WORKER;
 
     
-    for(int i = 0; i < workers.Count; i++) {
-        FileStream stream= new FileStream(path+i,FileMode.Create);
-        WorkerData data= new WorkerData(workers[i]);
-        formatter.Serialize(stream,data);
-        stream.Close();
+    for(int i = 0; i <GameManager.Instance.workers.Length; i++) {
+        if(GameManager.Instance.workers[i]){
+            FileStream stream= new FileStream(path+i,FileMode.Create);
+           WorkerData data= new WorkerData(GameManager.Instance.workers[i].GetComponent<Worker>());
+            formatter.Serialize(stream,data);
+           stream.Close();
+             Debug.Log("kayit aldimmi");
+        }
+        
+       
     }
-
+       
     }
     public void LoadWorker (Scene s, LoadSceneMode mode) {
        BinaryFormatter formatter=new BinaryFormatter();
@@ -120,13 +128,15 @@ private void OnApplicationQuit() {
         worker.GetComponent<Worker>().index+=i;
           worker.GetComponent<Worker>().workerLevel=data.workerLevel;
            //worker moshi oyun başı kullan
-          GameManager.Instance.workers[i]=worker;      
+          GameManager.Instance.workers[i]=worker;    
+
             }
             else{
-                Debug.Log("Dosya Bulunamadı: "+ path +i);
+                Debug.Log("Dosya Bulunamadi: "+ path +i);
             }
             
         }
+        SaveWorker();
     }
 
   

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using DG.Tweening;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoSingleton<GameManager>
 {
     public int Money,extraMoney;//save+
@@ -113,6 +113,7 @@ IEnumerator ResetInterAdd(){
  }
     
     private void Start() {
+    
        SetMoneyText();
        StartCoroutine(DecreseSalary());
 
@@ -193,8 +194,9 @@ IEnumerator ResetInterAdd(){
      workers[wIndex].GetComponent<Worker>().index=wIndex;
      
       
-      SaveLoadManager.Instance.SaveWorker();
+ 
      wIndex++;
+      SaveLoadManager.Instance.SaveWorker();
      SaveLoadManager.Instance.SaveWorkerState();
      if(maxWorkerCount==wIndex)
        UpgradeUI.GetComponent<UIUpgrade>().PriceText.text="Max";
