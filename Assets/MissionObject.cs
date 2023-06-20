@@ -27,6 +27,7 @@ public class MissionObject : MonoBehaviour
             GameManager.Instance.player.GetComponent<PlayerOP>().missionArow.SetActive(false);
             Destroy(this.gameObject);
             anim.SetBool("Run", false);
+           GameManager.Instance.vali += 10;
         }
 
         //mission completes

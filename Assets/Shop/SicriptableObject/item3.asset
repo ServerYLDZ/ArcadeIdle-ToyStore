@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4f0b8f8c8279142949f77fda3f4d18, type: 3}
   m_Name: item3
   m_EditorClassIdentifier: 
-  itemName: gem
+  itemName: Siyah
   itemType: 1
   Pirce: 200
   Splash: {fileID: 21300000, guid: 9491bd2954188e94e819ecc8ccf70bba, type: 3}

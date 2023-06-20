@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4f0b8f8c8279142949f77fda3f4d18, type: 3}
   m_Name: item6
   m_EditorClassIdentifier: 
-  itemName: tahta
+  itemName: Oyunmat
   itemType: 3
   Pirce: 500
   Splash: {fileID: 21300000, guid: d8eb42a23c254604aad79efead217744, type: 3}

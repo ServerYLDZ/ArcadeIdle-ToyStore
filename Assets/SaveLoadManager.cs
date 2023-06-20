@@ -28,6 +28,9 @@ private void Awake() {
 private void OnApplicationQuit() {
     //save işlemlerinin hepsi burda yapılcak geliştirme sürecine engel oluyor şu an
   SaveWorker();
+  SavePlayerState();
+  SaveWorkerState();
+  SaveState();
 
 }
 
@@ -44,6 +47,7 @@ private void OnApplicationQuit() {
         string st = ""; 
          
          st+= GameManager.Instance.Money.ToString() +"|";
+         st+=GameManager.Instance.vali.ToString()+"|";
 
         PlayerPrefs.SetString("SaveState", st); 
     } 
@@ -56,6 +60,7 @@ private void OnApplicationQuit() {
         
        GameManager.Instance.Money = int.Parse(data[0]); 
        GameManager.Instance.SetMoneyText();
+       GameManager.Instance.vali = int.Parse(data[1]); 
        
        // xp = int.Parse(data[1]); 
         

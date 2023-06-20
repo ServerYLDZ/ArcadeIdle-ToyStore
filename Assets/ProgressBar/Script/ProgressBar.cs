@@ -33,7 +33,7 @@ public class ProgressBar : MonoBehaviour
     private Image bar, barBackground;
     private float nextPlay;
     private AudioSource audiosource;
-    public TMP_Text txtTitle;
+
     private float barValue;
     public float BarValue
     {
@@ -61,10 +61,10 @@ public class ProgressBar : MonoBehaviour
 
     private void Start()
     {
-        txtTitle.text = Title;
-        txtTitle.color = TitleColor;
+       
+    
         
-        txtTitle.fontSize = TitleFontSize;
+        
 
         bar.color = BarColor;
         barBackground.color = BarBackGroundColor; 
@@ -79,7 +79,7 @@ public class ProgressBar : MonoBehaviour
     {
         bar.fillAmount = val / 100;
         
-        txtTitle.text = Title + " " + val + "%";
+
 
         if (Alert >= val)
         {
@@ -102,9 +102,7 @@ public class ProgressBar : MonoBehaviour
         if (!Application.isPlaying)
         {           
             UpdateValue(100);
-            txtTitle.color = TitleColor;
-            
-            txtTitle.fontSize = TitleFontSize;
+           
 
             bar.color = BarColor;
             barBackground.color = BarBackGroundColor;

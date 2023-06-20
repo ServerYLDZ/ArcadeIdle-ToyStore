@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4f0b8f8c8279142949f77fda3f4d18, type: 3}
   m_Name: item5
   m_EditorClassIdentifier: 
-  itemName: "i\u015Fci"
+  itemName: Sepet
   itemType: 2
   Pirce: 1000
   Splash: {fileID: 21300000, guid: e4a4d2fc1eb80c343838ac256e4adee3, type: 3}

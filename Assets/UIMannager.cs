@@ -17,8 +17,22 @@ public class UIMannager : MonoBehaviour//obsever yani g�zlemcimiz
   
 
     void SetMoneyText(int money) {
-if(money>=1000)
-MoneyText.text = (money/1000).ToString()+"."+ ((money%1000)/10).ToString()+"K";
+if(money>=1000){
+
+    string st ="";
+   st+= (money/1000).ToString()+".";
+   if((money%1000)<100){
+    st+="0"+((money%1000)/10).ToString()+"K";
+   }
+   else{
+    st+=((money%1000)/10).ToString()+"K";
+   }
+   
+MoneyText.text = st;
+
+}
+
+
 else
     MoneyText.text = money.ToString();
     SaveLoadManager.Instance.SaveState();

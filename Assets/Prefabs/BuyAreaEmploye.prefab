@@ -28,6 +28,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 784824564465908473}
   - {fileID: 784824564260309824}
@@ -37,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &784824563261073882
 CanvasRenderer:
@@ -67,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 493fb6622b3658a4892382ff76723fe8, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -106,6 +107,7 @@ RectTransform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 5.63}
   m_LocalScale: {x: 0.02, y: 0.020000001, z: 0.5000001}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 784824563261073880}
   m_Father: {fileID: 784824564189383217}
@@ -205,6 +207,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.98, y: 0.21, z: 3.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 784824564009811147}
   - {fileID: 4975138638726152865}
@@ -275,6 +278,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 784824563261073880}
   m_RootOrder: 1
@@ -312,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 53831ffd2c1064d07b3fcc10982b1e0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -350,6 +354,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.77011746, y: 0.9, z: 1.08}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 784824563261073880}
   m_RootOrder: 0
@@ -456,20 +461,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!64 &7538078438783089765
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4950146073162152012}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &3995365919989181821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -536,6 +527,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8340692359917851953, guid: 9bbe3e5055a778248854907468060140, type: 3}
   m_PrefabInstance: {fileID: 3995365919989181821}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &7538078438783089765
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4950146073162152012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &4975138638726152865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8248723257222492124, guid: 9bbe3e5055a778248854907468060140, type: 3}

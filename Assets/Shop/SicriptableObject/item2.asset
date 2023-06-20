@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4f0b8f8c8279142949f77fda3f4d18, type: 3}
   m_Name: item2
   m_EditorClassIdentifier: 
-  itemName: Iron
+  itemName: Siyah
   itemType: 0
   Pirce: 200
   Splash: {fileID: 21300000, guid: 1cfa2f4fffaffea4b9cf443705ad6f18, type: 3}
