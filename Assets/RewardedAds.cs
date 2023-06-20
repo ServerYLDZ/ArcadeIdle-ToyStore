@@ -66,7 +66,8 @@ public class RewardedAds : MonoBehaviour,IUnityAdsLoadListener, IUnityAdsShowLis
         {
             Debug.Log("Unity Ads Rewarded Ad Completed");
             // Grant a reward.
-            GameManager.Instance.vali=100;
+            GameManager.Instance.vali+=10;
+            Debug.Log("vali");
             LoadAd();
         }
       

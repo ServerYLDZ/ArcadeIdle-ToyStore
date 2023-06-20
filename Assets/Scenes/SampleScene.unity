@@ -3742,7 +3742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93e792adbd6b1354a9732d4f4ff2b56b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a14548fa46575f4c85a782239a72c3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4649,7 +4649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b0f422ba96cad8449ce7d3afe2d7152, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8471541cd400a546bbc9d3004727aa3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7837,7 +7837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.11320752, g: 0.11281656, b: 0.09878958, a: 0.392}
+  m_Color: {r: 0.16078432, g: 0.11764706, b: 0.11764706, a: 0.42745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8484,7 +8484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 0.42745098}
+  m_Color: {r: 0.16078432, g: 0.11764706, b: 0.11764706, a: 0.42745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10609,7 +10609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 890c392d5ecbdeb41969ced6aaab7838, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b0f422ba96cad8449ce7d3afe2d7152, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11870,7 +11870,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 890c392d5ecbdeb41969ced6aaab7838, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b0f422ba96cad8449ce7d3afe2d7152, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11946,7 +11946,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93e792adbd6b1354a9732d4f4ff2b56b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a14548fa46575f4c85a782239a72c3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14483,7 +14483,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b0f422ba96cad8449ce7d3afe2d7152, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a7905d5c305d6d74ab5f342e1e0b0b76, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19298,7 +19298,7 @@ MonoBehaviour:
   wSpawnPoint: {fileID: 2006406847}
   wPrefab: {fileID: 4727190483627616509, guid: 5cf14a0844adaa641b8540448e4a68ad, type: 3}
   currentWorkerCapasity: 5
-  wIndex: 0
+  wIndex: 2
   workerPrice: 2000
   maxWorkerCount: 4
   maxCapasityIncrese: 4
@@ -25892,7 +25892,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93e792adbd6b1354a9732d4f4ff2b56b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a14548fa46575f4c85a782239a72c3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26636,7 +26636,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93e792adbd6b1354a9732d4f4ff2b56b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a14548fa46575f4c85a782239a72c3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28917,7 +28917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93e792adbd6b1354a9732d4f4ff2b56b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a14548fa46575f4c85a782239a72c3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -29192,7 +29192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93e792adbd6b1354a9732d4f4ff2b56b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a14548fa46575f4c85a782239a72c3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
